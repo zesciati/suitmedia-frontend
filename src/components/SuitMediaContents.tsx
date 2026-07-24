@@ -1,34 +1,6 @@
-import "./styles/Global.css";
-
-import Navbar from "./components/Navbar";
-import HeroImage from "./components/HeroImage";
-import SuitMediaContents from "./components/SuitMediaContents";
-
-function App() {
-  return (
-    <>
-      {/* <nav className="flex bg-[#F76641] items-center justify-around max-h-26">
-        <img src="/images/icon-suitmedia.png" alt="" />
-        <div className="flex gap-5 text-white text-lg">
-          <a href="" className="hover:border-b-2 active:border-b-2">
-            Work
-          </a>
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Ideas</a>
-          <a href="">Careers</a>
-          <a href="">Contact</a>
-        </div>
-      </nav> */}
-      <Navbar />
-      {/* <section className="hero-bg-image min-h-100 flex items-center justify-center bg-[url(/images/pexels-pixabay.jpeg)]">
-        <div className="flex-col text-center items-center text-white">
-          <h1 className="mb-5 text-5xl font-bold">Ideas</h1>
-          <p className="mb-5">Where all our great things begin</p>
-        </div>
-      </section> */}
-      <HeroImage/>
-      {/* <section className="mx-35 my-15 space-y-12  ">
+function SuitMediaContents(){
+  return(
+    <section className="mx-35 my-15 space-y-12  ">
         <div className="flex justify-between">
           <div>Showing 1-10 of 100</div>
           <div className="flex">
@@ -139,11 +111,7 @@ function App() {
         <div className="pagination text-center">
           <span> 1 2 3 4 5 6 7 8 9</span>
         </div>
-      </section> */}
-
-      <SuitMediaContents/>
-    </>
-  );
+      </section>
+  )
 }
-
-export default App;
+export default SuitMediaContents;
