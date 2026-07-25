@@ -25,14 +25,14 @@ const Navbar: FC = () => {
       const currentScrollY: number = window.scrollY;
 
       if (currentScrollY <= 0) {
-        // di paling atas, tampilkan solid
+        
         setShowNav(true);
         setIsTransparent(false);
       } else if (currentScrollY > lastScrollY.current) {
-        // scroll ke bawah -> sembunyikan
+        
         setShowNav(false);
       } else {
-        // scroll ke atas -> tampilkan dengan transparan
+        
         setShowNav(true);
         setIsTransparent(true);
       }
