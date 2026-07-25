@@ -11,7 +11,7 @@ function HeroImage() {
     //   </div>
     // </Parallax>
     // </section>
-    <div className="relative h-140 overflow-hidden">
+    <div className="relative h-140 overflow-hidden" style={{ clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 100%)" }}>
       
       {/* container tetap, overflow-hidden */}
       <Parallax speed={-40} className="absolute inset-0 -z-10 ">
