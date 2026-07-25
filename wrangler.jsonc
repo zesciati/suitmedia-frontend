@@ -1,0 +1,10 @@
+{
+  "name": "suitmedia-frontend",
+  "compatibility_date": "2026-07-01",
+  "main": "worker/index.ts",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+}
